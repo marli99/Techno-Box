@@ -17,8 +17,10 @@ struct OnboardingView: View {
             OnboardingCardView(image: "78908", title: "How it works", description: "Users can scroll trought various items and buy them with a click of a button!")
         }
         .tabViewStyle(PageTabViewStyle())
-        .ignoresSafeArea()
+//        .ignoresSafeArea()
+        .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
     }
+    
 }
 
 struct OnboardingView_Previews: PreviewProvider {

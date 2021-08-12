@@ -20,6 +20,7 @@
 		F3DC1D7C26C4785400BAB43F /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D7B26C4785400BAB43F /* StartButtonView.swift */; };
 		F3DC1D7F26C4938C00BAB43F /* LaptopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D7E26C4938C00BAB43F /* LaptopViewModel.swift */; };
 		F3DC1D8126C4979E00BAB43F /* LaptopDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D8026C4979E00BAB43F /* LaptopDetailsScreen.swift */; };
+		F3DC1E2826C5ACB100BAB43F /* SubmitButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1E2726C5ACB100BAB43F /* SubmitButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		F3DC1D7B26C4785400BAB43F /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		F3DC1D7E26C4938C00BAB43F /* LaptopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopViewModel.swift; sourceTree = "<group>"; };
 		F3DC1D8026C4979E00BAB43F /* LaptopDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopDetailsScreen.swift; sourceTree = "<group>"; };
+		F3DC1E2726C5ACB100BAB43F /* SubmitButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				F339949326B3553C00BB5CFC /* LaptopView.swift */,
 				F339949F26B3694900BB5CFC /* OnboardingCardView.swift */,
 				F3DC1D7B26C4785400BAB43F /* StartButtonView.swift */,
+				F3DC1E2726C5ACB100BAB43F /* SubmitButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3DC1E2826C5ACB100BAB43F /* SubmitButtonView.swift in Sources */,
 				F3DC1D7C26C4785400BAB43F /* StartButtonView.swift in Sources */,
 				F339947F26B33CA600BB5CFC /* ContentView.swift in Sources */,
 				F339947D26B33CA600BB5CFC /* TechVintoryApp.swift in Sources */,

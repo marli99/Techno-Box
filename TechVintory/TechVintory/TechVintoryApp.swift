@@ -18,7 +18,7 @@ struct TechVintoryApp: App {
             if isOnboarding{
                 OnboardingView()
             }else{
-                LaptopListView()
+                ContentView()
             }
         }
     }
