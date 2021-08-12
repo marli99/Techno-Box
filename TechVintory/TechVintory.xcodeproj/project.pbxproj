@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F339947D26B33CA600BB5CFC /* TechVintoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339947C26B33CA600BB5CFC /* TechVintoryApp.swift */; };
+		F339947F26B33CA600BB5CFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339947E26B33CA600BB5CFC /* ContentView.swift */; };
+		F339948126B33CA700BB5CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F339948026B33CA700BB5CFC /* Assets.xcassets */; };
+		F339948426B33CA700BB5CFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F339948326B33CA700BB5CFC /* Preview Assets.xcassets */; };
+		F339949226B3541D00BB5CFC /* Laptop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339949126B3541D00BB5CFC /* Laptop.swift */; };
+		F339949426B3553C00BB5CFC /* LaptopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339949326B3553C00BB5CFC /* LaptopView.swift */; };
+		F339949626B3567C00BB5CFC /* LaptopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339949526B3567C00BB5CFC /* LaptopListView.swift */; };
+		F339949826B3574A00BB5CFC /* LaptopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339949726B3574A00BB5CFC /* LaptopData.swift */; };
+		F33994A026B3694900BB5CFC /* OnboardingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339949F26B3694900BB5CFC /* OnboardingCardView.swift */; };
+		F33994A226B36E9E00BB5CFC /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33994A126B36E9E00BB5CFC /* OnboardingView.swift */; };
+		F3DC1D7C26C4785400BAB43F /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D7B26C4785400BAB43F /* StartButtonView.swift */; };
+		F3DC1D7F26C4938C00BAB43F /* LaptopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D7E26C4938C00BAB43F /* LaptopViewModel.swift */; };
+		F3DC1D8126C4979E00BAB43F /* LaptopDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D8026C4979E00BAB43F /* LaptopDetailsScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F339947C26B33CA600BB5CFC /* TechVintoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechVintoryApp.swift; sourceTree = "<group>"; };
+		F339947E26B33CA600BB5CFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F339948026B33CA700BB5CFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F339948326B33CA700BB5CFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F339948526B33CA700BB5CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F339949126B3541D00BB5CFC /* Laptop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laptop.swift; sourceTree = "<group>"; };
+		F339949326B3553C00BB5CFC /* LaptopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopView.swift; sourceTree = "<group>"; };
+		F339949526B3567C00BB5CFC /* LaptopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopListView.swift; sourceTree = "<group>"; };
+		F339949726B3574A00BB5CFC /* LaptopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopData.swift; sourceTree = "<group>"; };
+		F339949F26B3694900BB5CFC /* OnboardingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCardView.swift; sourceTree = "<group>"; };
+		F33994A126B36E9E00BB5CFC /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F3DC1D7A26C474C500BAB43F /* TechVintory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechVintory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3DC1D7B26C4785400BAB43F /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		F3DC1D7E26C4938C00BAB43F /* LaptopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopViewModel.swift; sourceTree = "<group>"; };
+		F3DC1D8026C4979E00BAB43F /* LaptopDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopDetailsScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F339947626B33CA600BB5CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F339947026B33CA600BB5CFC = {
+			isa = PBXGroup;
+			children = (
+				F339947B26B33CA600BB5CFC /* TechVintory */,
+				F3DC1D7A26C474C500BAB43F /* TechVintory.app */,
+			);
+			sourceTree = "<group>";
+		};
+		F339947B26B33CA600BB5CFC /* TechVintory */ = {
+			isa = PBXGroup;
+			children = (
+				F3DC1D7D26C4935A00BAB43F /* ModelView */,
+				F339949026B352F000BB5CFC /* Screens */,
+				F339948D26B3525100BB5CFC /* Data */,
+				F339948C26B3524900BB5CFC /* Models */,
+				F339948B26B351BC00BB5CFC /* Views */,
+				F339947C26B33CA600BB5CFC /* TechVintoryApp.swift */,
+				F339948026B33CA700BB5CFC /* Assets.xcassets */,
+				F339948526B33CA700BB5CFC /* Info.plist */,
+				F339948226B33CA700BB5CFC /* Preview Content */,
+			);
+			path = TechVintory;
+			sourceTree = "<group>";
+		};
+		F339948226B33CA700BB5CFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F339948326B33CA700BB5CFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F339948B26B351BC00BB5CFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F339949326B3553C00BB5CFC /* LaptopView.swift */,
+				F339949F26B3694900BB5CFC /* OnboardingCardView.swift */,
+				F3DC1D7B26C4785400BAB43F /* StartButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F339948C26B3524900BB5CFC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F339949126B3541D00BB5CFC /* Laptop.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F339948D26B3525100BB5CFC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F339949726B3574A00BB5CFC /* LaptopData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F339949026B352F000BB5CFC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F339947E26B33CA600BB5CFC /* ContentView.swift */,
+				F339949526B3567C00BB5CFC /* LaptopListView.swift */,
+				F33994A126B36E9E00BB5CFC /* OnboardingView.swift */,
+				F3DC1D8026C4979E00BAB43F /* LaptopDetailsScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F3DC1D7D26C4935A00BAB43F /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				F3DC1D7E26C4938C00BAB43F /* LaptopViewModel.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F339947826B33CA600BB5CFC /* TechVintory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F339948826B33CA700BB5CFC /* Build configuration list for PBXNativeTarget "TechVintory" */;
+			buildPhases = (
+				F339947526B33CA600BB5CFC /* Sources */,
+				F339947626B33CA600BB5CFC /* Frameworks */,
+				F339947726B33CA600BB5CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechVintory;
+			productName = TechVintory;
+			productReference = F3DC1D7A26C474C500BAB43F /* TechVintory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F339947126B33CA600BB5CFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F339947826B33CA600BB5CFC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = F339947426B33CA600BB5CFC /* Build configuration list for PBXProject "TechVintory" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F339947026B33CA600BB5CFC;
+			productRefGroup = F339947026B33CA600BB5CFC;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F339947826B33CA600BB5CFC /* TechVintory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F339947726B33CA600BB5CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F339948426B33CA700BB5CFC /* Preview Assets.xcassets in Resources */,
+				F339948126B33CA700BB5CFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F339947526B33CA600BB5CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DC1D7C26C4785400BAB43F /* StartButtonView.swift in Sources */,
+				F339947F26B33CA600BB5CFC /* ContentView.swift in Sources */,
+				F339947D26B33CA600BB5CFC /* TechVintoryApp.swift in Sources */,
+				F339949426B3553C00BB5CFC /* LaptopView.swift in Sources */,
+				F33994A026B3694900BB5CFC /* OnboardingCardView.swift in Sources */,
+				F339949826B3574A00BB5CFC /* LaptopData.swift in Sources */,
+				F3DC1D8126C4979E00BAB43F /* LaptopDetailsScreen.swift in Sources */,
+				F339949226B3541D00BB5CFC /* Laptop.swift in Sources */,
+				F33994A226B36E9E00BB5CFC /* OnboardingView.swift in Sources */,
+				F3DC1D7F26C4938C00BAB43F /* LaptopViewModel.swift in Sources */,
+				F339949626B3567C00BB5CFC /* LaptopListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F339948626B33CA700BB5CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F339948726B33CA700BB5CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F339948926B33CA700BB5CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TechVintory/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TechVintory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpenWindow.TechVintory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F339948A26B33CA700BB5CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TechVintory/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TechVintory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpenWindow.TechVintory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F339947426B33CA600BB5CFC /* Build configuration list for PBXProject "TechVintory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F339948626B33CA700BB5CFC /* Debug */,
+				F339948726B33CA700BB5CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F339948826B33CA700BB5CFC /* Build configuration list for PBXNativeTarget "TechVintory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F339948926B33CA700BB5CFC /* Debug */,
+				F339948A26B33CA700BB5CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F339947126B33CA600BB5CFC /* Project object */;
+}
