@@ -7,17 +7,17 @@
 
 import SwiftUI
 
-struct LaptopDetailsScreen: View {
+struct LaptopDetailsView: View {
     
     var laptop: Laptop
     
     
     var body: some View{
         ZStack{
-            LinearGradient(gradient: Gradient(colors: [Color.blue, Color.blue]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/)
+            LinearGradient(gradient: Gradient(colors: [Color.black, Color.blue]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/)
                     .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             VStack{
-                Image(systemName: laptop.Image)
+                Image(laptop.Image)
                     .renderingMode(.original)
                     .resizable()
                     .scaledToFit()
@@ -55,9 +55,9 @@ struct LaptopDetailsScreen: View {
     }
 }
 
-struct LaptopDetailsScreen_Previews: PreviewProvider {
+struct LaptopDetailsView_Previews: PreviewProvider {
     static var previews: some View{
-        LaptopDetailsScreen(laptop: LaptopData[0])
+        LaptopDetailsView(laptop: LaptopData[0])
            
     }
 }

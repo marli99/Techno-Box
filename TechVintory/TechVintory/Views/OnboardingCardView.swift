@@ -27,7 +27,7 @@ struct OnboardingCardView: View {
                 .padding()
                 
             Text(description)
-                .frame(width: 250, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .frame(width: 250, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: .center)
                     .foregroundColor(.white)
                 .multilineTextAlignment(.center)
                 

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "favpng_laptop-hewlett-packard-hp-elitebook-hp-compaq-6730s-15-40-hp-pavilion.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

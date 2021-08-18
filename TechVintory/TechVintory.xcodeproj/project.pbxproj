@@ -17,10 +17,30 @@
 		F339949826B3574A00BB5CFC /* LaptopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339949726B3574A00BB5CFC /* LaptopData.swift */; };
 		F33994A026B3694900BB5CFC /* OnboardingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339949F26B3694900BB5CFC /* OnboardingCardView.swift */; };
 		F33994A226B36E9E00BB5CFC /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33994A126B36E9E00BB5CFC /* OnboardingView.swift */; };
+		F39F584126CAEC890003874C /* PhoneData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F584026CAEC890003874C /* PhoneData.swift */; };
+		F39F584326CAECE00003874C /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F584226CAECE00003874C /* Phone.swift */; };
+		F39F584526CAED110003874C /* PhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F584426CAED110003874C /* PhoneViewModel.swift */; };
+		F39F584726CAEEE00003874C /* PhoneListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F584626CAEEE00003874C /* PhoneListView.swift */; };
+		F39F584926CAFA020003874C /* PhoneDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F584826CAFA020003874C /* PhoneDetailsView.swift */; };
+		F39F584B26CAFA4D0003874C /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F584A26CAFA4D0003874C /* PhoneView.swift */; };
+		F39F584D26CAFE7F0003874C /* DesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F584C26CAFE7F0003874C /* DesktopView.swift */; };
+		F39F584F26CAFEBC0003874C /* DesktopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F584E26CAFEBC0003874C /* DesktopData.swift */; };
+		F39F585126CAFEF30003874C /* Desktop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F585026CAFEF30003874C /* Desktop.swift */; };
+		F39F585326CAFF440003874C /* DesktopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F585226CAFF440003874C /* DesktopViewModel.swift */; };
+		F39F585526CAFFC70003874C /* DesktopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F585426CAFFC70003874C /* DesktopListView.swift */; };
+		F39F585726CB003A0003874C /* DesktopDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F585626CB003A0003874C /* DesktopDetailsView.swift */; };
+		F39F585B26CC40AE0003874C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F585A26CC40AE0003874C /* SettingsView.swift */; };
 		F3DC1D7C26C4785400BAB43F /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D7B26C4785400BAB43F /* StartButtonView.swift */; };
 		F3DC1D7F26C4938C00BAB43F /* LaptopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D7E26C4938C00BAB43F /* LaptopViewModel.swift */; };
-		F3DC1D8126C4979E00BAB43F /* LaptopDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D8026C4979E00BAB43F /* LaptopDetailsScreen.swift */; };
+		F3DC1D8126C4979E00BAB43F /* LaptopDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D8026C4979E00BAB43F /* LaptopDetailsView.swift */; };
 		F3DC1E2826C5ACB100BAB43F /* SubmitButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1E2726C5ACB100BAB43F /* SubmitButtonView.swift */; };
+		F3DC1E5226C81EAD00BAB43F /* TabletData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1E5126C81EAD00BAB43F /* TabletData.swift */; };
+		F3DC1E5426C81F3F00BAB43F /* Tablet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1E5326C81F3F00BAB43F /* Tablet.swift */; };
+		F3DC1E5626C8210800BAB43F /* TabletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1E5526C8210800BAB43F /* TabletView.swift */; };
+		F3DC1E5826C821A000BAB43F /* TabletViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1E5726C821A000BAB43F /* TabletViewModel.swift */; };
+		F3DC1E5A26C8220300BAB43F /* TabletListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1E5926C8220300BAB43F /* TabletListView.swift */; };
+		F3DC1E5D26C822B800BAB43F /* TabletDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1E5C26C822B800BAB43F /* TabletDetailsView.swift */; };
+		F3DC1E5F26C8344A00BAB43F /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1E5E26C8344A00BAB43F /* MenuBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +55,31 @@
 		F339949726B3574A00BB5CFC /* LaptopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopData.swift; sourceTree = "<group>"; };
 		F339949F26B3694900BB5CFC /* OnboardingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCardView.swift; sourceTree = "<group>"; };
 		F33994A126B36E9E00BB5CFC /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F39F584026CAEC890003874C /* PhoneData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneData.swift; sourceTree = "<group>"; };
+		F39F584226CAECE00003874C /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		F39F584426CAED110003874C /* PhoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewModel.swift; sourceTree = "<group>"; };
+		F39F584626CAEEE00003874C /* PhoneListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneListView.swift; sourceTree = "<group>"; };
+		F39F584826CAFA020003874C /* PhoneDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneDetailsView.swift; sourceTree = "<group>"; };
+		F39F584A26CAFA4D0003874C /* PhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneView.swift; sourceTree = "<group>"; };
+		F39F584C26CAFE7F0003874C /* DesktopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopView.swift; sourceTree = "<group>"; };
+		F39F584E26CAFEBC0003874C /* DesktopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopData.swift; sourceTree = "<group>"; };
+		F39F585026CAFEF30003874C /* Desktop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desktop.swift; sourceTree = "<group>"; };
+		F39F585226CAFF440003874C /* DesktopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopViewModel.swift; sourceTree = "<group>"; };
+		F39F585426CAFFC70003874C /* DesktopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopListView.swift; sourceTree = "<group>"; };
+		F39F585626CB003A0003874C /* DesktopDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopDetailsView.swift; sourceTree = "<group>"; };
+		F39F585A26CC40AE0003874C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F3DC1D7A26C474C500BAB43F /* TechVintory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechVintory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DC1D7B26C4785400BAB43F /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		F3DC1D7E26C4938C00BAB43F /* LaptopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopViewModel.swift; sourceTree = "<group>"; };
-		F3DC1D8026C4979E00BAB43F /* LaptopDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopDetailsScreen.swift; sourceTree = "<group>"; };
+		F3DC1D8026C4979E00BAB43F /* LaptopDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopDetailsView.swift; sourceTree = "<group>"; };
 		F3DC1E2726C5ACB100BAB43F /* SubmitButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButtonView.swift; sourceTree = "<group>"; };
+		F3DC1E5126C81EAD00BAB43F /* TabletData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletData.swift; sourceTree = "<group>"; };
+		F3DC1E5326C81F3F00BAB43F /* Tablet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tablet.swift; sourceTree = "<group>"; };
+		F3DC1E5526C8210800BAB43F /* TabletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletView.swift; sourceTree = "<group>"; };
+		F3DC1E5726C821A000BAB43F /* TabletViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletViewModel.swift; sourceTree = "<group>"; };
+		F3DC1E5926C8220300BAB43F /* TabletListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletListView.swift; sourceTree = "<group>"; };
+		F3DC1E5C26C822B800BAB43F /* TabletDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletDetailsView.swift; sourceTree = "<group>"; };
+		F3DC1E5E26C8344A00BAB43F /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +132,9 @@
 				F339949F26B3694900BB5CFC /* OnboardingCardView.swift */,
 				F3DC1D7B26C4785400BAB43F /* StartButtonView.swift */,
 				F3DC1E2726C5ACB100BAB43F /* SubmitButtonView.swift */,
+				F3DC1E5526C8210800BAB43F /* TabletView.swift */,
+				F39F584A26CAFA4D0003874C /* PhoneView.swift */,
+				F39F584C26CAFE7F0003874C /* DesktopView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -100,6 +143,9 @@
 			isa = PBXGroup;
 			children = (
 				F339949126B3541D00BB5CFC /* Laptop.swift */,
+				F3DC1E5326C81F3F00BAB43F /* Tablet.swift */,
+				F39F584226CAECE00003874C /* Phone.swift */,
+				F39F585026CAFEF30003874C /* Desktop.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -108,6 +154,9 @@
 			isa = PBXGroup;
 			children = (
 				F339949726B3574A00BB5CFC /* LaptopData.swift */,
+				F3DC1E5126C81EAD00BAB43F /* TabletData.swift */,
+				F39F584026CAEC890003874C /* PhoneData.swift */,
+				F39F584E26CAFEBC0003874C /* DesktopData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -118,7 +167,15 @@
 				F339947E26B33CA600BB5CFC /* ContentView.swift */,
 				F339949526B3567C00BB5CFC /* LaptopListView.swift */,
 				F33994A126B36E9E00BB5CFC /* OnboardingView.swift */,
-				F3DC1D8026C4979E00BAB43F /* LaptopDetailsScreen.swift */,
+				F3DC1D8026C4979E00BAB43F /* LaptopDetailsView.swift */,
+				F3DC1E5926C8220300BAB43F /* TabletListView.swift */,
+				F3DC1E5C26C822B800BAB43F /* TabletDetailsView.swift */,
+				F3DC1E5E26C8344A00BAB43F /* MenuBarView.swift */,
+				F39F584626CAEEE00003874C /* PhoneListView.swift */,
+				F39F584826CAFA020003874C /* PhoneDetailsView.swift */,
+				F39F585426CAFFC70003874C /* DesktopListView.swift */,
+				F39F585626CB003A0003874C /* DesktopDetailsView.swift */,
+				F39F585A26CC40AE0003874C /* SettingsView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -127,6 +184,9 @@
 			isa = PBXGroup;
 			children = (
 				F3DC1D7E26C4938C00BAB43F /* LaptopViewModel.swift */,
+				F3DC1E5726C821A000BAB43F /* TabletViewModel.swift */,
+				F39F584426CAED110003874C /* PhoneViewModel.swift */,
+				F39F585226CAFF440003874C /* DesktopViewModel.swift */,
 			);
 			path = ModelView;
 			sourceTree = "<group>";
@@ -204,12 +264,32 @@
 				F3DC1D7C26C4785400BAB43F /* StartButtonView.swift in Sources */,
 				F339947F26B33CA600BB5CFC /* ContentView.swift in Sources */,
 				F339947D26B33CA600BB5CFC /* TechVintoryApp.swift in Sources */,
+				F3DC1E5626C8210800BAB43F /* TabletView.swift in Sources */,
 				F339949426B3553C00BB5CFC /* LaptopView.swift in Sources */,
+				F39F585726CB003A0003874C /* DesktopDetailsView.swift in Sources */,
+				F39F584726CAEEE00003874C /* PhoneListView.swift in Sources */,
+				F39F584F26CAFEBC0003874C /* DesktopData.swift in Sources */,
+				F39F584126CAEC890003874C /* PhoneData.swift in Sources */,
 				F33994A026B3694900BB5CFC /* OnboardingCardView.swift in Sources */,
 				F339949826B3574A00BB5CFC /* LaptopData.swift in Sources */,
-				F3DC1D8126C4979E00BAB43F /* LaptopDetailsScreen.swift in Sources */,
+				F39F584326CAECE00003874C /* Phone.swift in Sources */,
+				F39F584D26CAFE7F0003874C /* DesktopView.swift in Sources */,
+				F39F584B26CAFA4D0003874C /* PhoneView.swift in Sources */,
+				F39F585126CAFEF30003874C /* Desktop.swift in Sources */,
+				F3DC1E5A26C8220300BAB43F /* TabletListView.swift in Sources */,
+				F3DC1E5826C821A000BAB43F /* TabletViewModel.swift in Sources */,
+				F3DC1D8126C4979E00BAB43F /* LaptopDetailsView.swift in Sources */,
 				F339949226B3541D00BB5CFC /* Laptop.swift in Sources */,
+				F3DC1E5226C81EAD00BAB43F /* TabletData.swift in Sources */,
+				F3DC1E5426C81F3F00BAB43F /* Tablet.swift in Sources */,
 				F33994A226B36E9E00BB5CFC /* OnboardingView.swift in Sources */,
+				F39F584526CAED110003874C /* PhoneViewModel.swift in Sources */,
+				F39F585526CAFFC70003874C /* DesktopListView.swift in Sources */,
+				F39F585B26CC40AE0003874C /* SettingsView.swift in Sources */,
+				F3DC1E5D26C822B800BAB43F /* TabletDetailsView.swift in Sources */,
+				F39F584926CAFA020003874C /* PhoneDetailsView.swift in Sources */,
+				F3DC1E5F26C8344A00BAB43F /* MenuBarView.swift in Sources */,
+				F39F585326CAFF440003874C /* DesktopViewModel.swift in Sources */,
 				F3DC1D7F26C4938C00BAB43F /* LaptopViewModel.swift in Sources */,
 				F339949626B3567C00BB5CFC /* LaptopListView.swift in Sources */,
 			);
@@ -341,6 +421,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TechVintory/Preview Content\"";
+				DEVELOPMENT_TEAM = P3N5D9LU2L;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TechVintory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -362,6 +443,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TechVintory/Preview Content\"";
+				DEVELOPMENT_TEAM = P3N5D9LU2L;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TechVintory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
