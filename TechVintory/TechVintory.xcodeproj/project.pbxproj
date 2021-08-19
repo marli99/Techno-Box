@@ -17,6 +17,7 @@
 		F339949826B3574A00BB5CFC /* LaptopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339949726B3574A00BB5CFC /* LaptopData.swift */; };
 		F33994A026B3694900BB5CFC /* OnboardingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339949F26B3694900BB5CFC /* OnboardingCardView.swift */; };
 		F33994A226B36E9E00BB5CFC /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33994A126B36E9E00BB5CFC /* OnboardingView.swift */; };
+		F3982B8326CECE9D0020BD3E /* TechVintoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3982B8226CECE9D0020BD3E /* TechVintoryUITests.swift */; };
 		F39F584126CAEC890003874C /* PhoneData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F584026CAEC890003874C /* PhoneData.swift */; };
 		F39F584326CAECE00003874C /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F584226CAECE00003874C /* Phone.swift */; };
 		F39F584526CAED110003874C /* PhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F584426CAED110003874C /* PhoneViewModel.swift */; };
@@ -43,6 +44,16 @@
 		F3DC1E5F26C8344A00BAB43F /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1E5E26C8344A00BAB43F /* MenuBarView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F3982B8526CECE9D0020BD3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F339947126B33CA600BB5CFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F339947826B33CA600BB5CFC;
+			remoteInfo = TechVintory;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		F339947C26B33CA600BB5CFC /* TechVintoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechVintoryApp.swift; sourceTree = "<group>"; };
 		F339947E26B33CA600BB5CFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +66,9 @@
 		F339949726B3574A00BB5CFC /* LaptopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopData.swift; sourceTree = "<group>"; };
 		F339949F26B3694900BB5CFC /* OnboardingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCardView.swift; sourceTree = "<group>"; };
 		F33994A126B36E9E00BB5CFC /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F3982B8026CECE9D0020BD3E /* TechVintoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechVintoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3982B8226CECE9D0020BD3E /* TechVintoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechVintoryUITests.swift; sourceTree = "<group>"; };
+		F3982B8426CECE9D0020BD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F39F584026CAEC890003874C /* PhoneData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneData.swift; sourceTree = "<group>"; };
 		F39F584226CAECE00003874C /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
 		F39F584426CAED110003874C /* PhoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewModel.swift; sourceTree = "<group>"; };
@@ -90,6 +104,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F3982B7D26CECE9D0020BD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -98,6 +119,8 @@
 			children = (
 				F339947B26B33CA600BB5CFC /* TechVintory */,
 				F3DC1D7A26C474C500BAB43F /* TechVintory.app */,
+				F3982B8026CECE9D0020BD3E /* TechVintoryUITests.xctest */,
+				F3982B8126CECE9D0020BD3E /* TechVintoryUITests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,6 +203,15 @@
 			path = Screens;
 			sourceTree = "<group>";
 		};
+		F3982B8126CECE9D0020BD3E /* TechVintoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3982B8226CECE9D0020BD3E /* TechVintoryUITests.swift */,
+				F3982B8426CECE9D0020BD3E /* Info.plist */,
+			);
+			path = TechVintoryUITests;
+			sourceTree = "<group>";
+		};
 		F3DC1D7D26C4935A00BAB43F /* ModelView */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +243,24 @@
 			productReference = F3DC1D7A26C474C500BAB43F /* TechVintory.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F3982B7F26CECE9D0020BD3E /* TechVintoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3982B8926CECE9D0020BD3E /* Build configuration list for PBXNativeTarget "TechVintoryUITests" */;
+			buildPhases = (
+				F3982B7C26CECE9D0020BD3E /* Sources */,
+				F3982B7D26CECE9D0020BD3E /* Frameworks */,
+				F3982B7E26CECE9D0020BD3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3982B8626CECE9D0020BD3E /* PBXTargetDependency */,
+			);
+			name = TechVintoryUITests;
+			productName = TechVintoryUITests;
+			productReference = F3982B8026CECE9D0020BD3E /* TechVintoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -222,6 +272,10 @@
 				TargetAttributes = {
 					F339947826B33CA600BB5CFC = {
 						CreatedOnToolsVersion = 12.5.1;
+					};
+					F3982B7F26CECE9D0020BD3E = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F339947826B33CA600BB5CFC;
 					};
 				};
 			};
@@ -239,6 +293,7 @@
 			projectRoot = "";
 			targets = (
 				F339947826B33CA600BB5CFC /* TechVintory */,
+				F3982B7F26CECE9D0020BD3E /* TechVintoryUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,6 +305,13 @@
 			files = (
 				F339948426B33CA700BB5CFC /* Preview Assets.xcassets in Resources */,
 				F339948126B33CA700BB5CFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3982B7E26CECE9D0020BD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +357,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F3982B7C26CECE9D0020BD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3982B8326CECE9D0020BD3E /* TechVintoryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3982B8626CECE9D0020BD3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F339947826B33CA600BB5CFC /* TechVintory */;
+			targetProxy = F3982B8526CECE9D0020BD3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F339948626B33CA700BB5CFC /* Debug */ = {
@@ -458,6 +536,42 @@
 			};
 			name = Release;
 		};
+		F3982B8726CECE9D0020BD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechVintoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpenWindow.TechVintoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechVintory;
+			};
+			name = Debug;
+		};
+		F3982B8826CECE9D0020BD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechVintoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpenWindow.TechVintoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechVintory;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -475,6 +589,15 @@
 			buildConfigurations = (
 				F339948926B33CA700BB5CFC /* Debug */,
 				F339948A26B33CA700BB5CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3982B8926CECE9D0020BD3E /* Build configuration list for PBXNativeTarget "TechVintoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3982B8726CECE9D0020BD3E /* Debug */,
+				F3982B8826CECE9D0020BD3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

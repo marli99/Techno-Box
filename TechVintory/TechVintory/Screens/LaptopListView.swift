@@ -18,6 +18,7 @@ struct LaptopListView: View {
             
             NavigationView{
                 
+                
                 List{
                     ForEach(laptopViewModel.LaptopData.shuffled()){
                         item in
@@ -28,10 +29,10 @@ struct LaptopListView: View {
                                 LaptopView(laptop: item)
                                     .padding(.vertical,5)
                             })
+                        
                     }
                     
                 }
-                
                 
                 .navigationTitle("Laptops")
                 .navigationBarItems(trailing: Button(action: {
@@ -50,6 +51,8 @@ struct LaptopListView: View {
                 })
                 
             }
+            
+            
             .accentColor(.white)
             
     }

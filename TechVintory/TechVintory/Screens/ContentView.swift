@@ -23,6 +23,7 @@ struct ContentView: View {
                     .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             
             VStack(alignment: .leading, spacing: 50){
+                
 //                .listRowBackground(Color.blue)
                 
                 HStack(alignment: .center){
@@ -33,13 +34,10 @@ struct ContentView: View {
                                     .resizable()
                                     .frame(width: 30, height: 30, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                     .aspectRatio(contentMode: .fit)
-                                  
                                     .accentColor(.white)
                                     .padding(.bottom, 100)
                                    
                             })
-                        
-//
                     
                     Image("logoWhite")
                         .resizable()
@@ -48,6 +46,7 @@ struct ContentView: View {
                         .padding(.leading, 30)
                     
                 }
+                
                
                 
                         HStack(alignment: .center, spacing: 20){
@@ -169,7 +168,9 @@ struct ContentView: View {
             
         }
     }.accentColor(.black)
-}
+        
+    }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
