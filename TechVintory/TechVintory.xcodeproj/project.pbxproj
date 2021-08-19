@@ -18,6 +18,7 @@
 		F33994A026B3694900BB5CFC /* OnboardingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339949F26B3694900BB5CFC /* OnboardingCardView.swift */; };
 		F33994A226B36E9E00BB5CFC /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33994A126B36E9E00BB5CFC /* OnboardingView.swift */; };
 		F3982B8326CECE9D0020BD3E /* TechVintoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3982B8226CECE9D0020BD3E /* TechVintoryUITests.swift */; };
+		F3982B8B26CEDA3D0020BD3E /* SpashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3982B8A26CEDA3D0020BD3E /* SpashScreenView.swift */; };
 		F39F584126CAEC890003874C /* PhoneData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F584026CAEC890003874C /* PhoneData.swift */; };
 		F39F584326CAECE00003874C /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F584226CAECE00003874C /* Phone.swift */; };
 		F39F584526CAED110003874C /* PhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F584426CAED110003874C /* PhoneViewModel.swift */; };
@@ -69,6 +70,7 @@
 		F3982B8026CECE9D0020BD3E /* TechVintoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechVintoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3982B8226CECE9D0020BD3E /* TechVintoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechVintoryUITests.swift; sourceTree = "<group>"; };
 		F3982B8426CECE9D0020BD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3982B8A26CEDA3D0020BD3E /* SpashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpashScreenView.swift; sourceTree = "<group>"; };
 		F39F584026CAEC890003874C /* PhoneData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneData.swift; sourceTree = "<group>"; };
 		F39F584226CAECE00003874C /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
 		F39F584426CAED110003874C /* PhoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewModel.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				F39F585426CAFFC70003874C /* DesktopListView.swift */,
 				F39F585626CB003A0003874C /* DesktopDetailsView.swift */,
 				F39F585A26CC40AE0003874C /* SettingsView.swift */,
+				F3982B8A26CEDA3D0020BD3E /* SpashScreenView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				F3DC1E5226C81EAD00BAB43F /* TabletData.swift in Sources */,
 				F3DC1E5426C81F3F00BAB43F /* Tablet.swift in Sources */,
 				F33994A226B36E9E00BB5CFC /* OnboardingView.swift in Sources */,
+				F3982B8B26CEDA3D0020BD3E /* SpashScreenView.swift in Sources */,
 				F39F584526CAED110003874C /* PhoneViewModel.swift in Sources */,
 				F39F585526CAFFC70003874C /* DesktopListView.swift in Sources */,
 				F39F585B26CC40AE0003874C /* SettingsView.swift in Sources */,

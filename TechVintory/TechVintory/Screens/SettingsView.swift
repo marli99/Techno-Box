@@ -60,7 +60,7 @@ struct SettingsView: View {
                     HStack{
                         Text("Source Link")
                         Spacer()
-                        Link(destination: /*@START_MENU_TOKEN@*/URL(string: "https://www.apple.com")!/*@END_MENU_TOKEN@*/, label: {
+                        Link(destination: URL(string: "https://github.com/marli99/Techno-Box")!, label: {
                             Text("GitHub")
                         })
                         Image(systemName: "arrow.up.right.square")
